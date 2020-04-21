@@ -14,4 +14,5 @@ RSpec.describe HomeController, type: :controller do
     get :top
     expect(response).to have_http_status "200"
   end
+
 end
